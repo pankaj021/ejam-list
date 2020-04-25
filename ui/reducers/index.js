@@ -1,10 +1,7 @@
-import { combineReducers } from 'redux';
-import boardReducer from './boardReducer';
-import errorReducer from './errorReducer';
+import {combineReducers} from 'redux';
+import deploymentReducer from './deploymentReducer';
+import templateReducer from './templateReducer';
 
-const rootReducer = combineReducers({
-    board: boardReducer,
-    error: errorReducer
-});
+const rootReducer = combineReducers({deployments: deploymentReducer, templates: templateReducer});
 
 export default rootReducer;
