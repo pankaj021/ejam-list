@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "required": [
+        "url",
+        "name",
+        "version",
+        "deployedAt"
+    ],
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "deployedAt": {
+            "type": "date"
+        }
+    }
+}
